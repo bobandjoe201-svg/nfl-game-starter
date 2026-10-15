@@ -1,8 +1,18 @@
-nfl-game-starter/
-├── .gitignore
-├── .venv/
-├── __pycache__/
-├── output/
-├── nfl_game_data_starter.py
-├── nfl_game_model_v01.py
-└── README.md
+
+# Python virtual environment
+.venv/
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# Generated model outputs and datasets
+output/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# VSCode local settings
+.vscode/
