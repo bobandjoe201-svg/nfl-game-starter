@@ -1,0 +1,8 @@
+nfl-game-starter/
+├── .gitignore
+├── .venv/
+├── __pycache__/
+├── output/
+├── nfl_game_data_starter.py
+├── nfl_game_model_v01.py
+└── README.md
